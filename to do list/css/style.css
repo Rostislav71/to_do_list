@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: darkgrey;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list__body{
+    width: 30%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius:10px;
+    background-color: dodgerblue;
+    
+}
+.list__input__btn{
+    
+}
+.input__body{
+    display: flex;
+    justify-content: space-between;
+   height: 50px;
+}
+.err{
+    color: rgb(180, 13, 13);
+    padding-bottom: 2px;
+    font-weight: bold;
+    position: absolute;
+    top:20px;
+    font-size: 12px;
+}
+.input__somthing{
+    height: 100%;
+    width: 80%;
+    border-radius: 10px 0 0 10px ;
+    font-size: 15px;
+    padding-left: 10px;
+    height: 100%;
+}
+.add{
+    width: 20%;
+    border-radius: 0 10px 10px 0 ;
+    cursor: pointer;
+    font-size: 15px;
+}
+.add:hover{
+    background-color:rgb(190, 63, 63);
+    transition: 1s;
+    color:white
+}
+.list{
+    padding-top: 40px;
+}
+ul{
+    list-style: none;
+}
+.list__item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color:#f9f9f9 ;
+    display: flex;
+    justify-content: space-between;
+    border-radius:5px;
+    cursor:pointer;
+}
+.list__item:nth-child(even){
+    background:rgb(231, 230, 230);
+}
+.list__item:hover{
+    transition: 1s;
+}
+.check{
+    margin-left: 12px;
+}
+.close__btn{
+    width: 10% ;
+    height: 100%;
+    background: none;
+    cursor:pointer;
+    transition: 1s;
+}
+.close__btn:hover{
+    background-color:rgb(190, 63, 63);
+    border-radius:5px;
+    color: white;
+    
+}
+.checked{
+    opacity: 0.4;
+}
+p{
+    margin-left: 15px;
+}
